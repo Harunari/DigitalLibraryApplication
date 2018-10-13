@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigitalLibraryApplication", "DigitalLibraryApplication\DigitalLibraryApplication.csproj", "{18898311-5A80-48D4-8F04-41C978B1C3D9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DigitalLibraryApplication", "DigitalLibraryApplication\DigitalLibraryApplication.csproj", "{18898311-5A80-48D4-8F04-41C978B1C3D9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DigitalLibraryUnitTests", "DigitalLibraryUnitTests\DigitalLibraryUnitTests.csproj", "{691CFB53-8184-4CBD-9F4B-806223E2580E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigitalLibraryIntegrationTest", "DigitalLibraryIntegrationTest\DigitalLibraryIntegrationTest.csproj", "{22437F24-06CB-4280-8A97-B6610C5F7540}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{18898311-5A80-48D4-8F04-41C978B1C3D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{18898311-5A80-48D4-8F04-41C978B1C3D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{18898311-5A80-48D4-8F04-41C978B1C3D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{691CFB53-8184-4CBD-9F4B-806223E2580E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{691CFB53-8184-4CBD-9F4B-806223E2580E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{691CFB53-8184-4CBD-9F4B-806223E2580E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{691CFB53-8184-4CBD-9F4B-806223E2580E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22437F24-06CB-4280-8A97-B6610C5F7540}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22437F24-06CB-4280-8A97-B6610C5F7540}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22437F24-06CB-4280-8A97-B6610C5F7540}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22437F24-06CB-4280-8A97-B6610C5F7540}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
